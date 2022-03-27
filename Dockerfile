@@ -31,8 +31,6 @@ RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
 
 RUN chmod +x chess-engine
-RUN chmod +x Anti-Fairy
-RUN chmod +x Atomic-Fairy
 
 CMD python3 run.py
 
